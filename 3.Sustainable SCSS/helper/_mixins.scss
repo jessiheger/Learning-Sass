@@ -1,0 +1,6 @@
+// create mixins that take in an argument, otherwise you should extend.
+
+@mixin dimensions($width, $height){
+  width: $width;
+  height: $height;
+}
